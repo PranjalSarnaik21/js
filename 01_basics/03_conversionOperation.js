@@ -18,3 +18,24 @@ console.log(valueInNumber); // NaN -> Not a number
 
 // 1 = true ; 0 = false
 // "P" = true ; "" = false
+
+// Operations
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+/*
+console.log(2+2); // 4
+console.log(2-2); // 0
+console.log(2*2); // 4
+console.log(2**3); // 8
+console.log(2/3); // 0.666
+console.log(2%3); // 2
+*/
+// console.log("1" + 2); // 12
+// console.log(1 + "2"); // 12
+// console.log("1" + 2 + 3); // 123
+// console.log(1 + 2 + "3"); // 33
+
+// console.log(+true) // 1
+console.log(+"") // 0 Plus is a conversion symbol
