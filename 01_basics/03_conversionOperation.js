@@ -39,3 +39,8 @@ console.log(2%3); // 2
 
 // console.log(+true) // 1
 console.log(+"") // 0 Plus is a conversion symbol
+
+let gameCounter = 100
+// ++gameCounter;  prefix & postfix
+gameCounter++;   
+console.log(gameCounter); // 101
