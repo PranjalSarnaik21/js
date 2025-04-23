@@ -7,5 +7,17 @@ const repoCount = 5
 //Hello my name is Pranjal and repo count is 5 
 let fName = "Pranjal"
 let lName = "Sarnaik"
-console.log(fName + " " + lName);
+// console.log(fName + " " + lName); // Pranjal Sarnaik
+
+// Functions
+let GameName = new String ("PranjalS")
+console.log(GameName[0]);
+console.log(GameName.__proto__); // {} = object
+console.log(GameName.length); //8
+console.log(GameName.charAt(2)); // a
+console.log(GameName.indexOf('r')); // 1
+
+
+
+
 
