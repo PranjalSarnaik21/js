@@ -16,7 +16,8 @@ console.log(jsUser["name"]); // Pranjal
 console.log(jsUser["full Name"]); // Pranjal sarnaik
 // console.log(jsUser.full name); wrong syntax
 console.log(jsUser[mySym]); // myKey1
-console.log(typeof(jsUser[mySym]));
+console.log(typeof(jsUser[mySym])); // string coz the value is string
+console.log(typeof(mySym)); // symbol
 
 
 
