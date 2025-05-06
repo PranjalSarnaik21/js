@@ -19,6 +19,31 @@ console.log(jsUser[mySym]); // myKey1
 console.log(typeof(jsUser[mySym])); // string coz the value is string
 console.log(typeof(mySym)); // symbol
 
+// overWrite
+jsUser.email = "Pranjal@gmail.com"
+console.log(jsUser.email); // Pranjal@gmail.com
+//Freeze : it will not overwrite the value
+// Object.freeze(jsUser)
+jsUser.email = "Pranjal@hotmail.com"
+// console.log(jsUser.email); // Pranjal@gmail.com
+// console.log(jsUser); //  [Symbol(key1)]: 'myKey1'
+
+jsUser.greeting = function(){
+    console.log("hello");
+    
+}
+console.log(jsUser.greeting()); // hello // undefined
+console.log(jsUser.greeting); // [Function (anonymous)] reference of the function not created
+
+// this is used to find the properties of that object
+jsUser.greetingTwo = function(){
+    console.log(`hello, ${this.name}`);
+    
+}
+console.log(jsUser.greetingTwo()); // hello, Pranjal
+
+
+
 
 
 
