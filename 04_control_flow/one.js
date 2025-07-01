@@ -16,3 +16,22 @@ else{
     console.log("temp is greater than 50")
 }
 console.log("executed")
+
+// var is not used becoz it has only global scope
+
+const score = 200
+if (score > 100) {
+    const power = "fly"
+    console.log(`User power is ${power}`);    
+} else {
+    console.log("not executed");    
+}
+
+// short hand
+if(2>1) console.log("execute");
+
+// bad Practices
+// if(2>1) console.log("execute"),console.log("exectue2");
+
+// nesting (check multiple comdition)
+const balance = 2000
