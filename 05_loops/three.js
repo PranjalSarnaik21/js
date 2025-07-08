@@ -6,7 +6,15 @@ for (const num of arr) {
 }
 greetings = "Hello World"
 for (const greet of greetings) {
-    console.log(greet);    
+    //console.log(greet);    
 }
 
-// Maps
+// Maps : it is an object holds key-value pairs and remember the original insertion order of the key.
+// it has unique values
+const map = new Map()
+map.set('IN',"India")
+map.set('USA',"United States")
+map.set('FR',"France")
+console.log(map);
+
+
