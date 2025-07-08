@@ -15,6 +15,17 @@ const map = new Map()
 map.set('IN',"India")
 map.set('USA',"United States")
 map.set('FR',"France")
-console.log(map);
+console.log(map);   // its response in object format
 
-
+// Iteration Of map
+for (const keys of map) {
+    console.log(keys);  // output in array format
+}
+for (const [keys] of map) {
+    console.log(keys);  // only print the keys i.e. IN USA FR
+}  
+for (const [keys,values] of map) {
+   // console.log(`${keys} = ${values}`); // IN = India
+    console.log(keys,'->', values); // IN -> India
+    
+}
