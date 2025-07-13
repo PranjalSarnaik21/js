@@ -17,7 +17,7 @@ digits.forEach((items) => {
 }) 
 // console.log(newDigits); // [ 9, 10 ]
 
-// filter : we used conditions directly
+// filter : we used conditions directly; Its like true or false game
 const Numbers= [1,2,3,4,5,6,7,8,9,10]
 const codes = Numbers.filter((numbs) => {
    return numbs > 5        // we write return coz it is in block scope
@@ -52,5 +52,5 @@ let userBooks = books.filter((bk) => (bk.genre === "History"))
   // will do overwrite
 userBooks = books.filter((bk) => { return bk. publish>=2000 && bk.genre ==="Science"})
   console.log(userBooks);
-  
+
   
